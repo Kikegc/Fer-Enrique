@@ -22,7 +22,7 @@ public class Usuario {
         Scanner sc = new Scanner(System.in);
         System.out.println("¿Cómo te llamas?");
         setNombre(sc.nextLine());
-        System.out.println("¿Cuántos años tienes?");
+        System.out.println("¿Cuántos años tienes? FAVOR DE ESCRIBIR EN VALOR NUMERICO" );
         setEdad(sc.nextInt()); sc.nextLine();
         System.out.println("¿Cómo te sientes hoy? (Feliz / Triste / Enérgico / Relajado)");
         setEstadoDeAnimo(sc.nextLine());
